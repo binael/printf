@@ -4,7 +4,7 @@
  * _putchar - prints a single character on the standard output
  * @c: character input to be sent to the standard output
  *
- * Return: 1 (SUCCESS), -1 (FAILURE)
+ * Return: The output
  */
 
 int _putchar(char c)
