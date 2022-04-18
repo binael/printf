@@ -1,4 +1,4 @@
-![](https://upload.wikimedia.org/wikipedia/commons/2/2c/Printf.svg)
+![](https://paperbun.org/content/images/size/w600/2021/08/printf_example.png)
 
 ## printf()
 
