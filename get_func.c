@@ -11,7 +11,7 @@ int (*get_func(char s))(va_list)
 {
 	int i;
 
-	opt_t ops[] = 
+	op_t ops[] =
 	{
 		{"c", print_c}, {"d", print_d},
 		{"s", print_s}, {"i", print_i},
