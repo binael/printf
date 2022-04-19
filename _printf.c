@@ -9,7 +9,7 @@
 
 int _printf(const char *format, ...)
 {
-	int counter = -1;
+	int count = -1;
 
 	if (format != NULL)
 	{
@@ -22,7 +22,7 @@ int _printf(const char *format, ...)
 		if (format[0] == '%' && format[1] == '\0')
 			return (-1);
 
-		counter = 0;
+		count = 0;
 
 		for (i = 0; format[i] != '\0'; i++)
 		{
@@ -30,20 +30,20 @@ int _printf(const char *format, ...)
 			{
 				if (format[i + 1] == '%')
 				{
-					counter += _putchar(format[i]);
+					count += _putchar(format[i]);
 					i++;
 				}
 				else if (format[i + 1] != '\0')
 				{
 					o = get_func(format[i + 1]);
-					counter += (o ? o(ar_list) : _putchar(format[i]) + _putchar(format[i + 1]));
+					count += (o ? o(ar_list) : _putchar(format[i]) + _putchar(format[i + 1]));
 					i++;
 				}
 			}
 			else
-				counter += _putchar(format[i]);
+				count += _putchar(format[i]);
 		}
 		va_end(ar_list);
 	}
-	return (counter);
+	return (count);
 }
