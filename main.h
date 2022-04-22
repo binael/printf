@@ -33,7 +33,7 @@ int print_b(va_list binary_list);
 int print_u(va_list ar_list);
 int print_o(va_list ar_list);
 int print_x(va_list ar_list);
-int prInt_X(va_list ar_list);
+int prnt_X(va_list ar_list);
 int print_R(va_list ar_list);
 int prInt_r(va_list ar_list);
 int print_p(va_list ar_list);
