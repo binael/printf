@@ -3,8 +3,6 @@
 ## printf()
 A simple printf function developed by Binael Nchekwube and Triumph Edet which imitates the basic functions of the "printf" function in C Programming.
 
-*printf() format:
+*printf() format:*
+
 	in _printf(const char *format, ...)
-
-
-
