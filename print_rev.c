@@ -6,7 +6,7 @@
 * @ar_list: Store the a list of characters
 * Return: num of parameters printed
 */
-int print_r(va_list ar_list)
+int print_rev(va_list ar_list)
 {
 	int i, j, count = 0;
 	char *str;
