@@ -17,8 +17,7 @@ int (*get_func(char s))(va_list)
 		{"b", print_b}, {"o", print_o},
 		{"x", print_x}, {"u", print_u},
 		{"X", prnt_X},	{"p", print_p},
-		{"R", print_R}, {"r", print_rev},
-		{NULL, NULL}
+		{"R", print_R}, {NULL, NULL}
 	};
 
 	for (i = 0; ops[i].c != NULL; i++)

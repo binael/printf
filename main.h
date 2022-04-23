@@ -35,7 +35,7 @@ int print_o(va_list ar_list);
 int print_x(va_list ar_list);
 int prnt_X(va_list ar_list);
 int print_R(va_list ar_list);
-int prInt_rev(va_list ar_list);
+int prInt_r(va_list ar_list);
 int print_p(va_list ar_list);
 
 #endif
